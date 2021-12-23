@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-image: url(https://i.redd.it/rxb59jh8wss61.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    max-width: 80%;
+    margin: auto;
+}
+
+
+#title, .subtitle, .post_title{
+    color: rgb(32, 32, 32);
+    
+}
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: line-through;
+    color: blue;
+}
+.topo{
+    border-radius: 50%;
+    border: black
+}
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+.post{
+    background: white;
+    padding: 10px;
+    border: 3px solid grey;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 11px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.post_img{
+    margin-bottom: 11px;
+    width: 100%;
+}
+.contacts_list{
+    list-style-type: none;
+    padding-left: 11px;
+
+}
+
+.contacts_list li a {
+    text-decoration: none;
+    color: goldenrod;
+}
